@@ -1,0 +1,988 @@
+DATA ANALYTICS — UNIT 1
+
+BBA | SEMESTER-1 PROGRAM
+Introduction to Data Analytics
+
+UNIT 1: Foundations, Data Collection & Preprocessing, and Analytics Tools & Technologies
+
+
+==================================================
+TOPIC 1 — BASICS OF DATA ANALYTICS, TYPES & SOURCES OF DATA
+==================================================
+
+WHAT IS DATA?
+
+Data is a collection of facts, figures, observations, or information that can be used for analysis and decision-making.
+
+Examples:
+- Student marks in an examination
+- Daily sales of a supermarket
+- Number of visitors on a website
+
+
+FROM DATA TO ANALYTICS
+
+Collecting Data + Studying Data + Better Decisions
+
+Analytics means examining and understanding data to find useful patterns and trends so that better decisions can be made.
+
+WHAT IS DATA ANALYTICS?
+
+Data Analytics is the science of analyzing raw data to draw conclusions and make informed decisions.
+
+It involves:
+- Collecting data
+- Organizing data
+- Cleaning data
+- Analyzing data
+
+Goal:
+- Discover meaningful information to support decisions
+- Understand what happened and why
+- Help determine what may happen next and what should be done
+
+
+WHY IS DATA ANALYTICS IMPORTANT?
+
+- Banks analyze customer transaction data to manage risk.
+- Hospitals analyze patient records to improve treatment and care.
+- Schools maintain student information to track performance.
+- E-commerce sites record customer purchases to personalize offers.
+
+
+DATA ANALYTICS IN EVERYDAY LIFE
+
+Amazon:
+- Recommends products
+- Understands customer behaviour
+- Predicts demand
+- Improves delivery
+
+Netflix:
+- Analyzes what you watch, how long you watch, and which genres you prefer.
+- Recommends shows accordingly.
+
+Google Maps:
+- Analyzes location data
+- Predicts traffic
+- Suggests routes
+- Estimates arrival time
+
+
+BASIC PROCESS OF DATA ANALYTICS
+
+Collect Data
+    ->
+Clean Data
+    ->
+Organize Data
+    ->
+Analyze Data
+    ->
+Decision Making
+
+
+DATA ANALYTICS CYCLE
+
+1. Data Collection
+2. Data Cleaning
+3. Data Analysis
+4. Interpretation
+
+
+APPLICATIONS OF DATA ANALYTICS
+
+Education:
+- Monitor performance
+- Identify weak students
+- Improve teaching methods
+
+Healthcare:
+- Predict diseases
+- Manage hospital resources
+- Improve patient care
+
+Business:
+- Increase sales
+- Understand customers
+- Reduce operating costs
+
+Sports:
+- Analyze player performance
+- Build match-winning strategies
+
+Banking:
+- Detect fraud
+- Approve loans
+- Analyze customer spending habits
+
+Government:
+- Plan public services using census and demographic data
+
+
+BENEFITS OF DATA ANALYTICS
+
+- Better decision-making across every department
+- Increased operational efficiency and reduced costs
+- Improved customer satisfaction and retention
+- More accurate prediction of future trends
+- Increased profits and reduced business risks
+
+
+TYPES OF DATA
+
+QUALITATIVE DATA
+
+Describes qualities or characteristics.
+
+Examples:
+- Gender
+- Colour
+- City / Department
+- Blood Group
+
+
+QUANTITATIVE DATA
+
+Can be measured numerically.
+Expressed as counts or magnitudes.
+
+Examples:
+- Age
+- Salary
+- Marks
+- Height / Weight
+
+
+QUANTITATIVE DATA: DISCRETE VS CONTINUOUS
+
+DISCRETE DATA
+
+Data that can be counted.
+
+Examples:
+- Number of students in a class
+- Number of cars
+- Number of employees
+
+Example:
+A classroom has 60 students. You cannot have 60.5 students.
+
+
+CONTINUOUS DATA
+
+Data that can take decimal values.
+
+Examples:
+- Height
+- Weight
+- Temperature
+- Salary
+
+Example:
+A person's weight may be 70.5 kg.
+
+
+STRUCTURED, UNSTRUCTURED & SEMI-STRUCTURED DATA
+
+STRUCTURED DATA
+- Organized in rows and columns.
+- Examples: database tables, Excel sheets, student records.
+
+UNSTRUCTURED DATA
+- No predefined format.
+- Examples: videos, images, emails, social media posts.
+
+SEMI-STRUCTURED DATA
+- Partially organized.
+- Examples: XML files, JSON files, emails.
+
+
+SUMMARY OF DATA TYPES
+
+Qualitative:
+- Gender
+- City
+
+Quantitative:
+- Marks
+- Salary
+
+Discrete:
+- Number of students
+
+Continuous:
+- Height
+- Weight
+
+Structured:
+- Excel data
+
+Unstructured:
+- Videos
+- Images
+
+
+WHERE DOES DATA COME FROM?
+
+INTERNAL SOURCES
+Generated inside the organization.
+Examples:
+- Employee records
+- Sales records
+- Student database
+
+EXTERNAL SOURCES
+Collected from outside the organization.
+Examples:
+- Government websites
+- Market research
+- Weather reports
+
+SOCIAL MEDIA DATA
+Examples:
+- Facebook likes
+- Instagram comments
+- YouTube views
+- Twitter posts
+
+SENSOR DATA
+Examples:
+- Smartwatches
+- Fitness bands
+- Temperature sensors
+- GPS devices
+
+TRANSACTION DATA
+Examples:
+- ATM withdrawals
+- Online shopping
+- Ticket booking
+
+MACHINE & WEB DATA
+Examples:
+- Server logs
+- ATM machine logs
+- Website visitors
+- Page views
+
+
+COMMON SOURCES OF DATA ANALYTICS
+
+- Internal Data: Student Database
+- External Data: Government Reports
+- Social Media: Facebook Posts
+- Sensors: Smartwatch
+- Transactions: UPI Payments
+- Websites: Online Shopping Data
+- Machine Data: Server Logs
+
+
+CASE STUDY — COLLEGE DATA ANALYTICS
+
+A college collects:
+- Attendance
+- Internal marks
+- Assignment marks
+- Final examination marks
+
+Results and impact:
+- Identify weak students early
+- Predict which students may fail
+- Arrange remedial classes in time
+- Improve overall academic performance
+
+
+TOPIC 1 RECAP
+
+- Data is raw information; analytics means studying data to gain insights.
+- Analytics process: collect -> clean -> organize -> analyze -> decide.
+- Data can come from databases, social media, sensors and the web.
+- Data can be qualitative, quantitative, structured, unstructured or semi-structured.
+- Almost every industry today, from education to sport, uses data analytics.
+
+
+==================================================
+TOPIC 2 — DATA COLLECTION & DATA PREPROCESSING
+==================================================
+
+WHAT IS DATA COLLECTION?
+
+Data Collection is the process of gathering information from different sources for analysis and decision-making.
+
+Reasons for collecting data:
+- To understand a problem clearly
+- To make better, evidence-based decisions
+
+Examples:
+- Incorrect attendance records can make a college target the wrong students.
+- Supermarkets collect bills, product details and purchase time to find best-sellers.
+
+
+PRIMARY VS SECONDARY DATA COLLECTION
+
+PRIMARY DATA
+
+Collected directly from the original source.
+
+Methods:
+- Surveys
+- Interviews
+- Questionnaires
+- Observation
+- Experiments
+
+Examples:
+- A college survey asking about study hours
+- A hospital survey on patient satisfaction
+
+
+SECONDARY DATA
+
+Already collected by someone else.
+
+Sources:
+- Government reports
+- Census data
+- Newspapers
+- Research papers
+- Websites
+
+Examples:
+- Using census data instead of conducting a new survey
+- Using government population data to plan a new store
+
+
+METHODS OF PRIMARY DATA COLLECTION
+
+SURVEYS
+A list of questions asked to people.
+Example: Google Forms survey on satisfaction with online classes.
+
+INTERVIEWS
+Information collected by asking questions directly.
+Example: Interviewing customers about a new product.
+
+OBSERVATION
+Data collected by observing people or situations.
+Example: A teacher observing classroom behaviour.
+
+EXPERIMENTS
+Data collected by conducting controlled experiments.
+Example: Scientists testing a new medicine.
+
+
+MODERN DATA COLLECTION SOURCES
+
+INTERNAL SOURCES
+- Employee records
+- Student databases
+- Sales reports
+- Attendance reports
+
+SENSOR DATA
+- Smartwatch data
+- GPS data
+- Heart rate
+- Steps walked
+- Sleep hours
+
+EXTERNAL SOURCES
+- Government data
+- Social media
+- Market reports
+- Weather reports
+
+TRANSACTION DATA
+- UPI payments
+- ATM withdrawals
+- Payments through PhonePe / Google Pay
+
+SOCIAL MEDIA DATA
+- Facebook likes
+- Instagram comments
+- YouTube views
+
+WEB DATA
+- Website visitors
+- Product searches
+- Views
+- Cart additions
+- Purchases
+
+
+COMMON CHALLENGES IN DATA COLLECTION
+
+MISSING DATA
+Some information is not available.
+Example: A student's phone number is missing.
+
+INCORRECT DATA
+Wrong values are entered.
+Example: Age entered as 250 years.
+
+DUPLICATE DATA
+The same record is captured more than once.
+Example: A customer is registered twice.
+
+OUTDATED DATA
+Old information is not refreshed.
+Example: An old address is stored in the database.
+
+
+WHAT IS DATA PREPROCESSING?
+
+Data preprocessing is the process of cleaning and preparing raw data before analysis.
+
+Real-world data is often:
+- Incomplete
+- Incorrect
+- Duplicate
+- Inconsistent
+- Noisy
+
+Without preprocessing, analysis results may be wrong.
+
+
+STEPS OF DATA PREPROCESSING
+
+1. DATA CLEANING
+Correcting errors and gaps.
+
+2. DATA INTEGRATION
+Combining multiple sources.
+
+3. DATA TRANSFORMATION
+Converting data into a suitable format.
+
+4. DATA REDUCTION
+Simplifying data without losing meaning.
+
+Result:
+Prepared data ready for reliable analysis.
+
+
+DATA CLEANING & HANDLING MISSING VALUES
+
+Data cleaning includes:
+- Removing missing values
+- Correcting wrong values
+- Removing duplicates
+- Removing unwanted data
+
+Methods:
+
+1. Remove Records
+Delete the incomplete record entirely.
+
+2. Fill with Average
+Example:
+Marks = 70, 80, NULL, 90
+Average of 70, 80 and 90 = 80
+The missing value can be filled with 80.
+
+3. Fill with Most Frequent Value
+Example:
+Blood Group = A, B, A, NULL
+Replace NULL with A.
+
+
+DATA INTEGRATION
+
+Combining data from different sources into one.
+
+Examples:
+- Combining a college database with a library database.
+- Hospitals integrate patient records, lab reports and pharmacy data.
+
+Benefit:
+- Gives one unified, complete view of each record.
+
+
+DATA TRANSFORMATION
+
+Converting data into a suitable, standard format.
+
+Examples:
+- 50000 -> 50,000 INR
+- 10-07-2026 -> July 10, 2026
+
+Banks can convert raw transactions into monthly reports.
+
+
+DATA NORMALIZATION
+
+- Converts data into a common, comparable scale.
+- Useful when values are very different in magnitude.
+- Machine Learning algorithms perform better on normalized data.
+- Prevents one large-scale variable from dominating analysis.
+
+
+DATA REDUCTION
+
+Reduces data volume without losing key information.
+
+Example:
+Instead of storing every seconds temperature:
+30, 31, 30, 31
+Store the average:
+30.3°C
+
+YouTube compresses large user data for faster processing.
+
+
+REMOVING DUPLICATES
+
+- Keep only one copy of a repeated record.
+- Example: A customer registered twice -> keep one entry.
+- Prevents double-counting in analysis.
+
+
+OUTLIER DETECTION
+
+Outliers are unusual or extreme values in the data.
+
+Example:
+Marks = 70, 80, 75, 90, 1000
+1000 is an outlier.
+
+Banks may flag unusual transactions as possible fraud.
+
+
+BENEFITS OF DATA PREPROCESSING
+
+- Improves overall data quality and accuracy
+- Reduces errors that could mislead analysis
+- Saves time during analysis
+- Improves decision-making and analytical efficiency
+- Produces reliable, trustworthy analysis results
+
+
+CASE STUDY — COLLEGE STUDENT PERFORMANCE
+
+Raw attendance and marks data contained:
+- Missing values
+- Impossible entries such as attendance over 100%
+- Missing marks
+
+After preprocessing:
+- Missing values were filled or corrected
+- Invalid entries were fixed
+- Data became ready for reliable analysis
+
+
+DATA COLLECTION VS DATA PREPROCESSING
+
+Data Collection:
+- Gathering data
+- First step
+- Data may be raw
+- Uses surveys and databases
+- Collects information
+
+Data Preprocessing:
+- Cleaning data
+- Second step
+- Data becomes usable
+- Uses cleaning techniques
+- Improves information
+
+
+TOPIC 2 RECAP
+
+- Real-world data is often incomplete, incorrect or inconsistent.
+- Cleaning, integration, transformation and reduction are core steps.
+- Data can be primary (collected first-hand) or secondary (already existing).
+- Data preprocessing prepares raw data for accurate analysis.
+- Good preprocessing leads directly to better analytics and decisions.
+
+
+==================================================
+TOPIC 3 — DATA ANALYTICS TOOLS & TECHNOLOGIES
+==================================================
+
+DATA ANALYTICS TOOLS & TECHNOLOGIES
+
+These are the software and systems that turn data into decisions.
+
+Main areas:
+- Spreadsheet tools
+- Database tools
+- Programming tools
+- Data visualization tools
+- Business Intelligence tools
+- Big Data technologies
+- Cloud technologies
+- Machine Learning
+
+
+DATA ANALYTICS TOOLS VS TECHNOLOGIES
+
+TOOLS
+- Software applications used to work with data
+- Help collect, store and clean data
+- Help analyze, visualize and report on data
+
+Simple definition:
+Software that turns data into information.
+
+TECHNOLOGIES
+- Methods and systems behind large-scale data processing
+- Examples: Artificial Intelligence (AI), Machine Learning (ML), Big Data
+- Cloud Computing
+- Data Warehousing
+
+
+WHY DO WE NEED DATA ANALYTICS TOOLS?
+
+- A supermarket with 50 branches and 10,000 daily customers cannot be analyzed manually.
+- Saves time
+- Increases accuracy
+- Reduces human error
+- Handles large volumes of data
+- Creates reports quickly
+- Supports decision-making
+- Improves business performance
+
+
+CATEGORIES OF DATA ANALYTICS TOOLS
+
+Spreadsheet Tools:
+- Microsoft Excel
+
+Database Tools:
+- MySQL
+- Oracle
+- PostgreSQL
+
+Programming Tools:
+- Python
+- R
+
+Big Data Tools:
+- Hadoop
+- Spark
+
+Cloud Technologies:
+- AWS
+- Azure
+- GCP
+
+Machine Learning:
+- Recommendation systems
+- Fraud detection
+
+Visualization Tools:
+- Tableau
+- Power BI
+
+BI Tools:
+- Power BI
+- Tableau
+- Qlik Sense
+
+
+MICROSOFT EXCEL
+
+What it is:
+A spreadsheet application used to store, organize and analyze data.
+
+Key features:
+- Data entry
+- Sorting
+- Filtering
+- Charts
+- Pivot tables
+- Formulas
+
+Advantages:
+- Easy to learn
+- User-friendly
+- Good for small datasets
+- Strong charts
+
+Limitation:
+- Cannot handle very large data efficiently and may slow down.
+
+Used by:
+- Schools
+- Small businesses
+- Offices
+- Colleges
+
+
+DATABASE MANAGEMENT SYSTEMS (DBMS)
+
+Examples:
+- MySQL
+- Oracle Database
+- PostgreSQL
+- Microsoft SQL Server
+
+A database is an organized collection of data.
+
+Example:
+A college database can contain:
+- Students
+- Fees
+- Attendance
+- Results
+
+SQL (Structured Query Language) is used to:
+- Store data
+- Retrieve data
+- Update data
+- Delete data
+
+Advantages:
+- Stores large volumes of data
+- Fast searching
+- High security
+- Data consistency
+
+Used in:
+- Banking
+- Hospital management
+- College management
+- Railway reservation systems
+
+
+PROGRAMMING LANGUAGES FOR DATA ANALYTICS
+
+PYTHON
+- Widely used in Data Analytics
+- Easy syntax
+- Free and open source
+- Large community support
+- Many libraries
+- Used for machine learning
+
+R
+- Mainly used for statistics and research
+- Strong for statistical analysis and visualization
+- Used for machine learning and research
+- Used to analyze medical and scientific data
+
+
+DATA VISUALIZATION TOOLS
+
+TABLEAU
+- Interactive dashboards
+- Drag-and-drop interface
+- Real-time reports
+- Used to monitor sales, customer behaviour and finances
+
+POWER BI
+- Interactive dashboards
+- Real-time analytics
+- Easy report creation
+- Strong Excel integration
+- Provides one-screen business views
+
+WHY VISUALIZATION MATTERS
+
+Humans understand pictures faster than numbers.
+
+A bar chart can communicate information instantly that may be difficult to understand from a table.
+
+
+BIG DATA — 5 V'S
+
+1. VOLUME
+The sheer amount of data generated.
+Example: Facebook photos, videos and messages.
+
+2. VELOCITY
+The speed at which new data is generated and must be processed.
+
+3. VARIETY
+The many different formats data comes in.
+Examples: Text, images, video, logs.
+
+4. VERACITY
+The trustworthiness and quality of the data.
+
+5. VALUE
+The usefulness of the data once analyzed for decisions.
+
+
+BIG DATA TECHNOLOGIES
+
+APACHE HADOOP
+- Stores huge volumes of data across machines
+- Uses distributed processing
+- Cost-effective for very large datasets
+- Banks can use Hadoop to analyze millions of transactions
+
+APACHE SPARK
+- Built for fast, in-memory processing
+- Supports real-time analytics
+- Has built-in machine learning support
+- Used for tasks such as predicting demand and matching drivers with riders
+
+
+CLOUD COMPUTING
+
+Definition:
+Storing and processing data on the internet instead of local computers.
+
+Popular platforms:
+- Amazon Web Services (AWS)
+- Microsoft Azure
+- Google Cloud Platform (GCP)
+
+Advantages:
+- Low cost
+- Scalability
+- Easy access
+- High storage capacity
+
+Example:
+Netflix stores and processes its data using cloud technologies.
+
+
+MACHINE LEARNING & BUSINESS INTELLIGENCE
+
+MACHINE LEARNING (ML)
+A branch of AI that lets computers learn from data.
+
+Uses:
+- Recommendation systems
+- Fraud detection
+- Face recognition
+- Chatbots
+
+Examples:
+- Amazon recommends products
+- Netflix suggests shows
+- Gmail filters spam
+
+BUSINESS INTELLIGENCE (BI)
+Tools that help organizations make business decisions.
+
+Popular tools:
+- Power BI
+- Tableau
+- Qlik Sense
+
+Uses:
+- Analyze sales
+- Analyze profit
+- Analyze expenses
+- Analyze customer growth
+- Turn raw numbers into useful business insight
+
+
+COMPARISON OF POPULAR DATA ANALYTICS TOOLS
+
+Excel:
+Small data analysis
+
+SQL / Databases:
+Database management
+
+Python:
+Programming and analytics
+
+R:
+Statistical analysis
+
+Tableau:
+Data visualization
+
+Power BI:
+Business dashboards
+
+Hadoop:
+Big Data processing
+
+Spark:
+Fast data processing
+
+AWS:
+Cloud computing
+
+
+CASE STUDY — TECHNOLOGY STACK AT AMAZON
+
+Amazon combines multiple technologies to power personalization and logistics at massive scale.
+
+Uses:
+- Databases for customer and product data
+- Python for analytics and prediction
+- Big Data for customer analysis
+- Cloud computing for storage
+- Machine Learning for recommendations
+- Dashboards for business reporting
+
+
+CASE STUDY — TECHNOLOGY STACK AT A HOSPITAL
+
+A hospital uses a combination of tools to manage records, reporting and clinical decisions.
+
+Uses:
+- Databases for patient records
+- Excel for routine reports
+- Power BI dashboards for management
+- Machine Learning for disease prediction
+
+
+ADVANTAGES & FUTURE TRENDS
+
+Advantages:
+- Better organization
+- Improved customer satisfaction
+- Increased profits
+- Better predictions
+- Reduced business risks
+- Competitive advantage
+
+Future technologies:
+- Artificial Intelligence and Machine Learning
+- Big Data Analytics at larger scale
+- Cloud Analytics
+- Real-Time Analytics
+- Predictive Analytics guiding everyday decisions
+
+
+UNIT 1 — FULL RECAP
+
+FOUNDATIONS
+- Data vs Analytics vs Data Analytics
+- 5-step analytics process
+- Types of data
+- Where data comes from
+
+COLLECTION & PREPROCESSING
+- Primary vs secondary collection
+- Common data collection challenges
+- Cleaning
+- Integration
+- Transformation
+- Reduction
+
+TOOLS & TECHNOLOGIES
+- Excel
+- SQL
+- Python
+- R
+- Tableau
+- Power BI
+- Hadoop
+- Spark
+- Cloud
+- Machine Learning
+- BI platforms
+
+
+ASSIGNMENT QUESTIONS
+
+1. Explain the Complete Data Analytics Lifecycle with a suitable diagram.
+
+2. Discuss the different types of data and their applications in business analytics.
+
+3. Explain Data Collection and Preprocessing in detail.
+
+4. Explain Data Analytics Tools and Technologies used in industry.
+
+5. Explain the Role of Data Analytics in Decision-Making with examples.

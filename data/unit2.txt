@@ -1,0 +1,1059 @@
+UNIT 2 — EXPLORATORY DATA ANALYSIS
+
+BBA | SEMESTER PROGRAM
+
+
+==================================================
+UNIT 2 OVERVIEW
+==================================================
+
+Topics covered:
+
+1. Descriptive Statistics & Data Visualization
+2. Data Cleaning & Outlier Detection
+3. Exploiting Patterns & Trends in Data
+4. Introduction to Statistical Concepts in Data Analysis
+
+
+==================================================
+TOPIC 1 — DESCRIPTIVE STATISTICS & DATA VISUALIZATION
+==================================================
+
+EXPLORATORY DATA ANALYSIS (EDA)
+
+EDA means exploring, examining and visualizing a dataset to understand its structure, patterns and relationships between variables.
+
+It helps answer questions such as:
+- Which students scored highest?
+- Which products sell the most?
+- What patterns exist in the data?
+- Are there unusual observations or outliers?
+
+Example:
+A college can use EDA to find whether higher attendance is linked to higher marks.
+
+
+OBJECTIVES OF EXPLORATORY DATA ANALYSIS
+
+1. Understand the Dataset
+   - Know the dataset structure.
+   - Understand what each variable represents.
+
+2. Identify Missing Values
+   - Find gaps in the data before analysis.
+
+3. Detect Duplicates
+   - Find records that appear more than once.
+
+4. Discover Relationships
+   - See how variables move or change together.
+
+5. Understand Trends
+   - Notice patterns and changes across the data.
+
+6. Find Outliers
+   - Locate unusual values that do not fit the general pattern.
+
+7. Prepare for Analysis
+   - Leave the dataset ready for deeper statistical analysis.
+
+
+STEPS IN EXPLORATORY DATA ANALYSIS
+
+1. Collect Data
+2. Understand Data
+3. Clean Data
+4. Calculate Statistics
+5. Create Charts
+6. Identify Patterns
+7. Make Decisions
+
+
+TYPES OF EXPLORATORY DATA ANALYSIS
+
+UNIVARIATE ANALYSIS
+- Studies only one variable.
+- Example: Student marks.
+- Can calculate average, highest and lowest marks.
+
+BIVARIATE ANALYSIS
+- Studies two variables together.
+- Example: Attendance and marks.
+- Helps determine whether the two variables move together.
+
+MULTIVARIATE ANALYSIS
+- Studies three or more variables together.
+- Example: Attendance, marks, study hours and assignment scores.
+
+
+CORE COMPONENTS OF EDA
+
+UNDERSTANDING THE DATASET
+- Number of rows and columns
+- Data types
+- Variable names
+
+Example:
+Rows = students
+Columns = information about students
+
+DETECTING DUPLICATE DATA
+- The same record appears more than once.
+- Usually one copy should be removed.
+
+CHECKING MISSING VALUES
+- Data may be incomplete.
+- A NULL entry means data is missing.
+
+DETECTING OUTLIERS
+- Outliers are unusual values.
+- Example: Marks = 75, 80, 82, 85, 1000
+- 1000 is an obvious outlier.
+
+
+DESCRIPTIVE STATISTICS
+
+Descriptive statistics summarize and describe existing data.
+
+
+MEASURES OF CENTRAL TENDENCY
+
+MEAN
+- The average.
+- Formula:
+  Mean = Sum of all values / Number of values
+
+Example:
+40, 50, 50, 60, 100
+Mean = 60
+
+Use:
+- Summarizing overall class performance.
+
+MEDIAN
+- The middle value after arranging data in order.
+
+Example:
+40, 50, 50, 70, 80
+Median = 50
+
+Use:
+- Useful when extreme values may distort the average.
+
+MODE
+- The value that occurs most frequently.
+
+Example:
+10, 20, 20, 20, 30
+Mode = 20
+
+Use:
+- Useful for finding the most common category or value.
+
+
+MEASURES OF DISPERSION
+
+RANGE
+- Highest value - Lowest value.
+
+Example:
+40, 50, 50, 70, 80
+Range = 80 - 40 = 40
+
+VARIANCE
+- Measures how far data values are from the average.
+- Small variance = values are close together.
+- Large variance = values are spread out.
+
+STANDARD DEVIATION
+- Measures how much values differ from the mean.
+- Small standard deviation = values are close to the mean.
+- Large standard deviation = values are more spread out.
+
+
+DATA VISUALIZATION
+
+Data visualization means representing data using graphs, charts, maps and diagrams.
+
+Benefits:
+- Helps identify patterns quickly.
+- Makes outliers stand out visually.
+- Makes reports easier to understand.
+- Supports faster decision-making.
+
+
+COMMON CHART TYPES
+
+BAR CHART
+- Compares values between categories.
+- Example: Sales of different products or department performance.
+
+LINE CHART
+- Shows trends over time.
+- Example: Monthly sales, daily temperature or website visitors.
+
+PIE CHART
+- Shows how a whole is divided into parts.
+- Example: Market share across four companies.
+
+HISTOGRAM
+- Shows the frequency distribution of numerical data grouped into ranges.
+- Example: Marks grouped into ranges.
+
+SCATTER PLOT
+- Shows the relationship between two numerical variables.
+- Example: Study hours vs marks.
+
+BOX PLOT
+- Summarizes minimum, maximum, median, quartiles and outliers.
+
+
+CHART SELECTION
+
+Compare categories:
+- Bar Chart
+
+Show a trend over time:
+- Line Chart
+
+Show percentage/share:
+- Pie Chart
+
+Show distribution:
+- Histogram
+
+Show relationship:
+- Scatter Plot
+
+
+CASE STUDY — STUDENT PERFORMANCE ANALYSIS
+
+A college collected data from 500 students, including:
+- Attendance
+- Internal marks
+- Final examination marks
+- Assignment scores
+
+Analysis:
+- Removed missing values.
+- Detected duplicate records.
+- Found students with unusually low attendance.
+- Studied the relationship between attendance and marks.
+
+Result and impact:
+- Attendance was linked with higher scores.
+- Most failures had attendance below 60%.
+- Attendance monitoring and extra coaching were introduced.
+- Student performance improved the next semester.
+
+
+ADVANTAGES OF EDA AND DATA VISUALIZATION
+
+- Helps understand data quickly and thoroughly.
+- Detects errors before deeper analysis.
+- Improves data quality and reliability.
+- Makes reports easier to understand.
+- Supports better and faster business decisions.
+- Identifies trends and hidden patterns early.
+
+
+TOPIC 1 KEY TAKEAWAYS
+
+- EDA helps understand a dataset before deeper analysis.
+- EDA involves collecting, understanding, cleaning, calculating statistics, creating charts and identifying patterns.
+- Central tendency includes mean, median and mode.
+- Dispersion includes range, variance and standard deviation.
+- Visualization makes patterns and outliers easier to identify.
+
+
+==================================================
+TOPIC 2 — DATA CLEANING & OUTLIER DETECTION
+==================================================
+
+WHAT IS DATA CLEANING?
+
+Data cleaning is the process of finding and correcting problems in data before analysis.
+
+Good analysis depends on good-quality data.
+
+Incorrect data entered
+    ->
+Incorrect output produced
+
+
+OBJECTIVES OF DATA CLEANING
+
+- Improve overall data quality.
+- Remove incorrect information.
+- Increase the accuracy of analysis.
+- Save time and reduce recurring errors.
+- Improve decision-making.
+- Prepare data for machine learning.
+
+
+COMMON DATA QUALITY PROBLEMS
+
+MISSING DATA
+- Information is not available.
+- Example: A hospital patient forgets to mention their blood group.
+
+INCORRECT DATA
+- Values are entered incorrectly.
+- Example: 5,000 entered as 50,000.
+
+DUPLICATE DATA
+- The same record appears twice.
+- Example: One customer creates two accounts with the same information.
+
+INCONSISTENT DATA
+- The same information appears in different formats.
+- Example:
+  Ahmedabad
+  Amdavad
+  AHMEDABAD
+
+INVALID DATA
+- A value breaks business rules.
+- Example: Attendance recorded as more than 100%.
+
+
+STEPS IN DATA CLEANING
+
+1. Identify Errors
+2. Handle Missing Values
+3. Remove Duplicate Records
+4. Correct and Standardize Values
+5. Validate Data
+6. Produce Clean Data Ready for Analysis
+
+
+HANDLING MISSING VALUES
+
+1. REMOVE THE RECORD
+- If only a few records have missing values, delete them entirely.
+
+2. REPLACE WITH MEAN
+- Replace the missing value with the average of available values.
+
+Example:
+70, 80, NULL, 70
+Mean of available values = 73.33
+NULL can be replaced with 73.33.
+
+3. REPLACE WITH MEDIAN
+- Replace the missing value with the median of the available values.
+
+4. REPLACE WITH MODE
+- Replace the missing value with the most frequently occurring value.
+
+Example:
+Blood Group = A, B, A, NULL
+Replace NULL with A.
+
+
+REMOVING DUPLICATES
+
+- Duplicate records increase storage requirements.
+- They can distort analysis.
+
+Example:
+Customer ID 01 — Amit
+Customer ID 01 — Amit
+
+Keep one record.
+
+
+CORRECTING INCORRECT DATA
+
+Fix values that were entered incorrectly.
+
+Example:
+Salary shown as 5,00,00,000 instead of 50,000.
+
+Applications:
+- Banks remove duplicate customer records before preparing statements.
+- Airlines correct passport numbers before issuing boarding passes.
+
+
+STANDARDIZING DATA
+
+Standardizing means putting data into one consistent format.
+
+Example:
+Ahmedabad
+Amdavad
+AHMEDABAD
+
+Can be standardized to:
+Ahmedabad
+
+Organizations standardize department names, locations and other fields consistently.
+
+
+VALIDATING DATA
+
+Validation checks whether data follows predefined business rules.
+
+Examples:
+- Age must be between 12 and 60.
+- Salary must be greater than 0.
+- Attendance must be between 0% and 100%.
+- A phone number field should contain a valid phone number format.
+
+
+WHAT IS AN OUTLIER?
+
+An outlier is a data value that is very different from the rest of the observations.
+
+Example:
+80, 82, 85, 90, 1000
+
+1000 is an outlier.
+
+
+WHY DO OUTLIERS OCCUR?
+
+1. Data entry mistakes
+   - Typo or extra zero creates an impossible value.
+
+2. Measurement errors
+   - Faulty instruments record incorrect readings.
+
+3. Human error
+   - Manual entry mistakes during data collection.
+
+4. Equipment failure
+   - Example: A temperature sensor records 150°C when it should not.
+
+5. Genuine rare events
+   - Some outliers represent real but unusual events.
+
+
+WHY OUTLIER DETECTION MATTERS
+
+Example:
+Marks = 80, 82, 85, 90, 1000
+
+An extreme value such as 1000 can greatly affect the average and produce misleading results.
+
+
+METHODS OF OUTLIER DETECTION
+
+1. VISUAL METHOD
+- Charts make outliers easy to spot.
+- Examples:
+  - Box plot
+  - Scatter plot
+  - Histogram
+- Banks can use dashboards to flag unusually large transactions.
+
+2. Z-SCORE METHOD
+- Measures how far a value is from the mean in terms of standard deviations.
+
+3. STATISTICAL METHOD — IQR
+- Interquartile Range compares values with the spread of the middle 50% of the data.
+
+4. DOMAIN KNOWLEDGE
+- Experts identify unusual values using knowledge of the field.
+- Example: 150 marks when the maximum is 100.
+
+
+HANDLING OUTLIERS
+
+REMOVE THE OUTLIER
+- If the value is caused by an error.
+
+CORRECT THE VALUE
+- If the correct value is known.
+
+Example:
+Salary entered as 5,00,000 instead of 50,000.
+
+KEEP THE OUTLIER
+- If it represents a genuine event.
+
+Example:
+A customer makes an unusually large purchase.
+Do not automatically remove it.
+
+
+NOISE VS OUTLIERS
+
+NOISE
+- Random error in data.
+- Usually small errors.
+- Usually removed.
+
+OUTLIER
+- An unusual observation.
+- Can be an extreme value.
+- May be removed or retained depending on the situation.
+
+
+CASE STUDY — HOSPITAL PATIENT DATA
+
+A hospital collects patient information and finds impossible values during a routine data audit.
+
+Problems:
+- Age recorded as 200 years.
+- Temperature recorded as 250°F.
+
+Actions:
+- Age corrected using patient records.
+- Temperature rechecked using medical equipment.
+- Data validated before storage.
+
+Result:
+- Cleaned data becomes reliable for medical analysis.
+
+
+APPLICATIONS OF DATA CLEANING & OUTLIER DETECTION
+
+Banking:
+- Fraud detection
+- Duplicate customer removal
+
+Healthcare:
+- Cleaning patient records
+- Identifying abnormal readings
+
+Education:
+- Correcting student attendance and marks
+
+Retail:
+- Removing duplicate customers
+- Correcting sales data
+
+Manufacturing:
+- Detecting faulty machine sensor readings
+
+Transportation:
+- Correcting GPS data
+- Identifying unusual travel patterns
+
+
+DATA CLEANING VS OUTLIER DETECTION
+
+DATA CLEANING
+- Improves overall data quality.
+- Removes errors and duplicates.
+- Handles missing and inconsistent data.
+- Makes data ready for analysis.
+
+OUTLIER DETECTION
+- Finds unusual values.
+- Identifies abnormal observations.
+- Focuses on extreme values.
+- Prevents misleading analysis.
+
+
+TOPIC 2 KEY TAKEAWAYS
+
+- Data cleaning improves the quality and reliability of data.
+- Cleaning follows a clear pipeline from raw data to analysis-ready data.
+- Outliers may be errors or genuine rare events.
+- Common problems include missing, duplicate, incorrect, inconsistent and invalid data.
+- Clean and accurate data leads to better decisions.
+
+
+==================================================
+TOPIC 3 — EXPLOITING PATTERNS & TRENDS IN DATA
+==================================================
+
+WHY PATTERNS & TRENDS MATTER
+
+- Understand customer behaviour and anticipate what they may do next.
+- Predict future events and improve forecasting accuracy.
+- Improve decisions, profits and risk management.
+
+Examples:
+- A supermarket notices bread and butter are often bought together.
+- A bank detects unusual transaction patterns that may indicate fraud.
+
+
+PATTERN VS TREND
+
+PATTERN
+- A repeated or predictable relationship in data.
+- Something that happens repeatedly.
+- Shows relationships between items or events.
+
+Example:
+Customers who buy bread often buy butter.
+
+TREND
+- The general direction data moves over time.
+- Shows whether something rises, falls or stays stable.
+- Reveals growth or decline across a period.
+
+Example:
+Monthly online sales continuously increasing.
+
+
+TYPES OF PATTERNS
+
+ASSOCIATION PATTERNS
+- Relationships between items.
+- Example: Mobile phones and phone covers are often bought together.
+- Recommendation systems use this information.
+
+CLASSIFICATION PATTERNS
+- Grouping data into categories.
+- Examples:
+  - Loan applications: Approved / Rejected
+  - Email: Spam / Not Spam
+
+SEQUENTIAL PATTERNS
+- Events occur in a particular order.
+- Example:
+  Search -> Add to Cart -> Purchase
+- Used for recommendations.
+
+CLUSTERING PATTERNS
+- Groups similar records together.
+- Examples:
+  - Students
+  - Professionals
+  - Customers
+
+
+TYPES OF TRENDS
+
+UPWARD TREND
+- Data increases over time.
+- Example: Growth of online shopping in India.
+
+DOWNWARD TREND
+- Data decreases over time.
+- Example: CD/DVD demand falling due to streaming.
+
+SEASONAL TREND
+- Patterns repeat during particular periods.
+- Example: Air-conditioner sales increasing every summer.
+
+CYCLICAL TREND
+- Changes occur over longer economic cycles.
+- Examples:
+  - Real estate cycles
+  - Stock market cycles
+
+
+HOW TO IDENTIFY PATTERNS & TRENDS
+
+DATA VISUALIZATION
+- Charts and plots reveal patterns visually.
+- Example: A line chart showing an upward sales trend.
+
+DESCRIPTIVE STATISTICS
+- Mean, median, mode and standard deviation summarize data.
+- Example: Average marks showing class performance.
+
+CORRELATION ANALYSIS
+- Measures the relationship between two variables.
+- Example: Study hours vs marks.
+- Can show positive correlation.
+
+TIME SERIES ANALYSIS
+- Studies data collected over time.
+- Example: Banks analyzing yearly transaction trends.
+
+
+APPLICATIONS OF PATTERN & TREND ANALYSIS
+
+Business:
+- Popular products
+- Customer preferences
+- Sales trends
+
+Education:
+- Attendance patterns
+- Examination results
+
+Healthcare:
+- Disease trends
+- Patient admission patterns
+
+Banking:
+- Spending behaviour
+- Fraudulent transaction patterns
+
+E-Commerce:
+- Shopping habits
+- Purchase sequences
+
+Sports Analytics:
+- Player performance
+- Winning patterns
+
+
+CASE STUDY — COLLEGE STUDENT PERFORMANCE
+
+A college collected data from 1,000 students:
+- Attendance
+- Assignment scores
+- Internal examination marks
+- Final examination marks
+
+Results:
+- Pattern: Regular assignment completion -> higher marks.
+- Pattern: Attendance above 75% -> significantly better results.
+- Trend: Overall pass percentage improved every year.
+
+Impact:
+- Attendance monitoring introduced.
+- Assignment tracking and academic counseling added.
+- Student performance improved further.
+
+
+CHALLENGES IN IDENTIFYING PATTERNS & TRENDS
+
+LARGE AMOUNTS OF DATA
+- Millions of records can be difficult to analyze thoroughly.
+
+POOR DATA QUALITY
+- Missing or incorrect data can produce false patterns.
+
+CHANGING CUSTOMER BEHAVIOUR
+- Patterns shift over time.
+- Example: DVDs declining due to streaming.
+
+SEASONAL VARIATIONS
+- Seasonal effects can hide the actual underlying trend.
+
+
+BENEFITS OF EXPLOITING PATTERNS & TRENDS
+
+- Better and faster decision-making
+- Improved forecasting
+- Reduced risk
+- Increased profits
+- Fraud detection
+- Competitive advantage
+
+
+MODERN TECHNOLOGIES USED
+
+- Excel
+- Power BI
+- Tableau
+- Python
+- R
+- Machine Learning
+- Artificial Intelligence
+- Big Data technologies
+
+
+TOPIC 3 KEY TAKEAWAYS
+
+- Patterns are repeated relationships.
+- Trends show the general direction of data over time.
+- Patterns can be association, classification, sequential or clustering.
+- Trends can be upward, downward, seasonal or cyclical.
+- Visualization, statistics, correlation and time-series analysis help identify them.
+
+
+==================================================
+TOPIC 4 — INTRODUCTION TO STATISTICAL CONCEPTS IN DATA ANALYSIS
+==================================================
+
+WHAT IS STATISTICS?
+
+Statistics is the process of collecting, organizing, analyzing, interpreting and presenting data to make meaningful conclusions.
+
+
+EXAMPLES OF STATISTICS
+
+- A researcher calculates the average marks of students.
+- A company predicts next month's sales.
+- A hospital studies average patient recovery time.
+- A bank estimates the risk of giving a loan.
+
+
+WHY STATISTICS MATTERS IN DATA ANALYSIS
+
+- Helps understand large datasets.
+- Reduces complex data into simple summaries.
+- Supports accurate decision-making.
+- Helps detect patterns and trends.
+- Measures uncertainty.
+- Supports predictive models.
+
+
+POPULATION VS SAMPLE
+
+POPULATION
+- The complete collection of individuals or observations.
+
+Example:
+A college has 5,000 students.
+All 5,000 students are the population.
+
+Studying the entire population can be expensive and time-consuming.
+
+SAMPLE
+- A smaller portion selected from the population for analysis.
+
+Example:
+Selecting 500 of the 5,000 students to study.
+
+Election surveys often ask a sample of voters instead of everyone.
+
+
+TYPES OF VARIABLES
+
+QUALITATIVE / CATEGORICAL VARIABLES
+- Describe qualities or categories.
+- Examples:
+  - Gender
+  - Blood Group
+  - Department
+  - City
+
+QUANTITATIVE / NUMERICAL VARIABLES
+- Contain numbers that can be measured.
+- Examples:
+  - Salary
+  - Marks
+  - Weight
+  - Height
+
+
+LEVELS OF DATA MEASUREMENT
+
+NOMINAL SCALE
+- Names or labels categories.
+- No meaningful calculations.
+- Examples:
+  - Gender
+  - Religion
+  - Blood Group
+
+ORDINAL SCALE
+- Categories have a meaningful order.
+- Difference between categories is not necessarily measurable.
+- Examples:
+  - Poor
+  - Average
+  - Good
+  - Excellent
+
+INTERVAL SCALE
+- Equal intervals.
+- No true zero.
+- Example:
+  Temperature in Celsius.
+- 0°C does not mean "no temperature."
+
+RATIO SCALE
+- Equal intervals with a true zero.
+- Examples:
+  - Height
+  - Weight
+  - Age
+  - Salary
+- All arithmetic operations are meaningful.
+
+
+DESCRIPTIVE VS INFERENTIAL STATISTICS
+
+DESCRIPTIVE STATISTICS
+- Summarizes data.
+- Uses tables, charts and averages.
+- Describes existing data.
+- Focuses on the current dataset.
+
+Example:
+Average marks of one class.
+
+INFERENTIAL STATISTICS
+- Makes predictions and conclusions.
+- Uses probability and sampling.
+- Generalizes from a sample to a population.
+- Estimates characteristics of the population.
+
+Example:
+Predicting all students' performance from a sample.
+
+
+MEASURES OF CENTRAL TENDENCY
+
+MEAN
+- Sum of values / Number of values.
+- Example:
+  Marks = 70, 80, 50
+  Mean = 200 / 3
+
+MEDIAN
+- Middle value after arranging data in order.
+- Useful when extreme values distort the mean.
+
+MODE
+- Most frequently occurring value.
+- Example:
+  10, 20, 20, 30
+  Mode = 20
+
+Applications:
+- Schools use mean to calculate average marks.
+- Median can be useful for house prices because very expensive homes can distort the average.
+- Stores can use mode to find the most popular size or product.
+
+
+MEASURES OF DISPERSION
+
+RANGE
+- Highest value - Lowest value.
+
+Example:
+40, 50, 60
+Range = 60 - 40 = 20
+
+VARIANCE
+- Measures how far values are from the average.
+- Small variance = values are close together.
+- Large variance = values are more spread out.
+
+STANDARD DEVIATION
+- Measures the spread of values around the mean.
+- Lower standard deviation means more consistency.
+- Higher standard deviation means greater variation.
+
+
+PROBABILITY
+
+Probability is the chance that an event will happen.
+
+It is expressed as a value between:
+- 0 and 1
+or
+- 0% and 100%
+
+
+CORRELATION BETWEEN VARIABLES
+
+POSITIVE CORRELATION
+- Both variables tend to move together.
+- Example:
+  Students who study more generally score higher.
+
+NEGATIVE CORRELATION
+- One variable increases while the other decreases.
+- Example:
+  Study time and free time may move in opposite directions.
+
+NO CORRELATION
+- No clear relationship exists between the two variables.
+- Example:
+  Roll number and examination marks.
+
+
+WHAT IS A HYPOTHESIS?
+
+A hypothesis is an assumption that can be tested using data.
+
+Example:
+"Students who attend more classes score better marks."
+
+Testing process:
+1. Collect attendance and marks data.
+2. Use statistical methods to test whether the assumption holds true.
+
+
+CASE STUDY — COLLEGE PERFORMANCE
+
+A college wants to improve academic results using:
+- Attendance
+- Assignment marks
+- Internal examination marks
+- Final examination marks
+
+Data analysis:
+- Mean, median and standard deviation calculated.
+- Pass percentage calculated.
+- Relationship between attendance and marks studied.
+
+Results:
+- Average marks = 72
+- Pass percentage = 88%
+- Attendance above 85% was linked to higher scores.
+- Attendance monitoring and counseling were introduced.
+- Overall performance improved.
+
+
+ADVANTAGES OF STATISTICS
+
+- Simplifies complex data into clear summaries.
+- Improves decision-making.
+- Supports forecasting.
+- Helps identify trends and patterns.
+- Measures uncertainty.
+- Reduces risk in business decisions.
+
+
+LIMITATIONS OF STATISTICS
+
+- Depends heavily on data quality.
+- Incorrect data gives incorrect results.
+- Cannot explain every real-world situation.
+- Results may mislead if interpreted incorrectly.
+
+
+TOPIC 4 KEY TAKEAWAYS
+
+- Statistics helps collect, organize, analyze and interpret data.
+- Population is the whole group; sample is a smaller representative part.
+- Variables can be qualitative or quantitative.
+- Measurement scales are nominal, ordinal, interval and ratio.
+- Descriptive statistics summarizes data.
+- Inferential statistics makes predictions or conclusions about a population.
+- Mean, median, mode, range, variance and standard deviation describe data.
+- Probability measures uncertainty.
+- Correlation measures relationships between variables.
+- A hypothesis is an assumption that can be tested using data.
+- Statistics supports education, healthcare, banking, business and sports.
+
+
+==================================================
+UNIT 2 — FULL RECAP
+==================================================
+
+TOPIC 1:
+Descriptive Statistics & Data Visualization
+- EDA
+- Central tendency
+- Dispersion
+- Charts and visualization
+
+TOPIC 2:
+Data Cleaning & Outliers
+- Data quality problems
+- Cleaning pipeline
+- Missing values
+- Duplicate removal
+- Standardization
+- Validation
+- Outlier detection
+
+TOPIC 3:
+Patterns & Trends
+- Pattern vs trend
+- Association
+- Classification
+- Sequential patterns
+- Clustering
+- Upward, downward, seasonal and cyclical trends
+
+TOPIC 4:
+Statistical Concepts
+- Population and sample
+- Variables
+- Measurement scales
+- Descriptive and inferential statistics
+- Central tendency
+- Dispersion
+- Probability
+- Correlation
+- Hypothesis
+
+
+UNIT 2 COMPLETE

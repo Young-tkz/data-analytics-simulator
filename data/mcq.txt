@@ -1,0 +1,259 @@
+INTRODUCTION TO DATA ANALYTICS
+
+BBA Programme — PIBA Department
+Parul University
+
+Prepared By: Mr. Roman Sheikh
+
+
+MULTIPLE CHOICE QUESTIONS — 25 MCQs
+
+
+Q1. What is Data Analytics?
+
+A. Storing data only
+B. Collecting and analyzing data to gain insights
+C. Deleting data
+D. Printing reports
+
+Answer: B
+
+
+Q2. Which of the following is a real-life application of Data Analytics?
+
+A. Fraud Detection
+B. Cooking Food
+C. Painting
+D. Gardening
+
+Answer: A
+
+
+Q3. Which type of analytics answers the question "What happened"?
+
+A. Predictive Analytics
+B. Prescriptive Analytics
+C. Descriptive Analytics
+D. Diagnostic Analytics
+
+Answer: C
+
+
+Q4. Which type of analytics answers the question "Why did it happen"?
+
+A. Descriptive Analytics
+B. Diagnostic Analytics
+C. Predictive Analytics
+D. Prescriptive Analytics
+
+Answer: B
+
+
+Q5. Which type of analytics predicts future outcomes?
+
+A. Descriptive Analytics
+B. Diagnostic Analytics
+C. Prescriptive Analytics
+D. Predictive Analytics
+
+Answer: D
+
+
+Q6. Which type of analytics suggests actions to be taken?
+
+A. Descriptive Analytics
+B. Diagnostic Analytics
+C. Prescriptive Analytics
+D. Predictive Analytics
+
+Answer: C
+
+
+Q7. Which of the following is an example of Structured Data?
+
+A. Video File
+B. Database Table
+C. Audio File
+D. Email Message
+
+Answer: B
+
+
+Q8. Which of the following is Unstructured Data?
+
+A. Excel Spreadsheet
+B. SQL Table
+C. Social Media Post
+D. Database Record
+
+Answer: C
+
+
+Q9. Which of the following is Semi-structured Data?
+
+A. Word Document
+B. Database Table
+C. XML File
+D. Excel Sheet
+
+Answer: C
+
+
+Q10. JSON stands for:
+
+A. Java Source Object Notation
+B. JavaScript Object Notation
+C. Java Structured Object Network
+D. Joint Script Object Network
+
+Answer: B
+
+
+Q11. XML stands for:
+
+A. Extensible Markup Language
+B. External Markup Language
+C. Extended Machine Language
+D. Extra Markup Language
+
+Answer: A
+
+
+Q12. Which of the following is a data source?
+
+A. Database
+B. Website
+C. Sensor
+D. All of the Above
+
+Answer: D
+
+
+Q13. Collecting new data directly from the source is called:
+
+A. Secondary Collection
+B. Data Integration
+C. Primary Collection
+D. Data Mining
+
+Answer: C
+
+
+Q14. Using existing data is known as:
+
+A. Primary Collection
+B. Secondary Collection
+C. Data Cleaning
+D. Data Transformation
+
+Answer: B
+
+
+Q15. Data preprocessing includes:
+
+A. Data Cleaning
+B. Data Transformation
+C. Data Integration
+D. All of the Above
+
+Answer: D
+
+
+Q16. Removing duplicate records is a part of:
+
+A. Data Collection
+B. Data Cleaning
+C. Data Visualization
+D. Data Mining
+
+Answer: B
+
+
+Q17. Normalization converts data into:
+
+A. A larger range
+B. A smaller range such as 0 to 1
+C. Text Format
+D. Binary Format
+
+Answer: B
+
+
+Q18. Standardization makes data:
+
+A. Random
+B. Larger
+C. Follow a standard scale
+D. Unstructured
+
+Answer: C
+
+
+Q19. Which of the following is a Data Analytics tool?
+
+A. Python
+B. R
+C. SAS
+D. All of the Above
+
+Answer: D
+
+
+Q20. Which Python library is commonly used for data analysis?
+
+A. Pandas
+B. NumPy
+C. Matplotlib
+D. All of the Above
+
+Answer: D
+
+
+Q21. Hadoop is mainly used for:
+
+A. Web Designing
+B. Big Data Storage and Processing
+C. Mobile Gaming
+D. Video Editing
+
+Answer: B
+
+
+Q22. Spark is known for:
+
+A. Slow Processing
+B. Real-Time Processing
+C. Text Editing
+D. Database Backup Only
+
+Answer: B
+
+
+Q23. Which industry uses Data Analytics for fraud detection?
+
+A. Agriculture
+B. Banking
+C. Tourism
+D. Construction
+
+Answer: B
+
+
+Q24. Netflix uses Data Analytics for:
+
+A. Manufacturing Products
+B. Recommendation Systems
+C. Building Computers
+D. Network Installation
+
+Answer: B
+
+
+Q25. The final goal of Data Analytics is:
+
+A. Data Storage
+B. Data Collection
+C. Better Decision Making
+D. Deleting Information
+
+Answer: C

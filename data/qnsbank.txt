@@ -1,0 +1,337 @@
+INTRODUCTION TO DATA ANALYTICS
+
+BBA Programme — PIBA Department
+Parul University
+
+Prepared By: Mr. Roman Shen
+
+
+==================================================
+SECTION A — VERY SHORT ANSWER QUESTIONS
+(1–2 Marks)
+==================================================
+
+Q1. What is Data Analytics?
+
+Data Analytics is the process of collecting, organizing, and analyzing data to obtain useful information and support decision-making.
+
+
+Q2. Define Big Data.
+
+Big Data refers to extremely large and complex datasets that cannot be processed using traditional data processing methods.
+
+
+Q3. What is Structured Data?
+
+Structured data is data that is organized in rows and columns and stored in databases.
+
+Examples:
+- Excel sheets
+- SQL databases
+
+
+Q4. What is Unstructured Data?
+
+Unstructured data is data that does not have a predefined format.
+
+Examples:
+- Emails
+- Videos
+- Images
+- Social media posts
+
+
+Q5. What is Semi-structured Data?
+
+Semi-structured data is a combination of structured and unstructured data.
+
+Examples:
+- XML files
+- JSON files
+
+
+Q6. What is Data Cleaning?
+
+Data Cleaning is the process of removing errors, duplicates, and missing values from data.
+
+
+Q7. What is Normalization?
+
+Normalization is the process of scaling data values between 0 and 1.
+
+
+Q8. What is Standardization?
+
+Standardization is the process of converting data into a standard format with a mean of 0 and a standard deviation of 1.
+
+
+Q9. Name two Data Analytics tools.
+
+1. Python
+2. [The source appears to contain only Python clearly for this question.]
+
+
+Q10. What is Hadoop?
+
+Hadoop is an open-source framework used for storing and processing large datasets.
+
+
+==================================================
+SECTION B — SHORT ANSWER QUESTIONS
+(3–5 Marks)
+==================================================
+
+Q12. Explain the importance of Data Analytics.
+
+- Helps in decision-making.
+- Improves business performance.
+- Predicts future trends.
+- Understands customer behaviour.
+- Increases profitability.
+
+
+Q13. Explain Descriptive Analytics.
+
+Descriptive Analytics studies historical data to understand what happened in the past.
+
+Example:
+- Monthly sales reports
+
+
+Q14. Explain Diagnostic Analytics.
+
+Diagnostic Analytics determines why a particular event happened.
+
+Example:
+- Finding the reasons behind declining sales.
+
+
+Q15. Explain Predictive Analytics.
+
+Predictive Analytics uses statistical techniques and machine learning to predict future outcomes.
+
+Example:
+- Predicting customer demand.
+
+
+Q16. Explain Prescriptive Analytics.
+
+Prescriptive Analytics recommends actions that should be taken based on predictions.
+
+Example:
+- Suggesting the best marketing strategy.
+
+
+Q17. Differentiate between Structured and Unstructured Data.
+
+Structured Data:
+- Organized format
+- Easy to analyze
+- Stored in databases
+
+Unstructured Data:
+- No predefined format
+- Difficult to analyze
+- Includes files such as images, videos and social media content
+
+
+Q18. Explain Secondary Data Collection.
+
+Secondary Data Collection uses existing data collected by others.
+
+Examples:
+- Research papers
+- Government reports
+
+
+Q19. What are Data Sources?
+
+Data sources are places from where data is obtained.
+
+Examples:
+- Databases
+- Websites
+- Sensors
+- Social media
+
+
+Q20. Explain Data Integration.
+
+Data Integration combines data from multiple sources into a single unified system.
+
+
+==================================================
+SECTION C — LONG ANSWER QUESTIONS
+(7–10 Marks)
+==================================================
+
+Q21. Explain the Data Analytics Process.
+
+The Data Analytics process consists of:
+
+1. Data Collection
+2. Data Cleaning
+3. Data Transformation
+4. Data Analysis
+5. Decision Making
+
+
+Q22. Explain the different types of Data Analytics.
+
+Descriptive Analytics:
+- Answers: What happened?
+
+Diagnostic Analytics:
+- Answers: Why did it happen?
+
+Predictive Analytics:
+- Answers: What will happen?
+
+Prescriptive Analytics:
+- Answers: What should be done?
+
+
+Q23. Explain the different types of Data.
+
+Structured Data:
+- Organized data stored in databases.
+
+Unstructured Data:
+- Data without a predefined format.
+
+Semi-structured Data:
+- Combination of structured and unstructured data.
+
+
+Q24. Explain Data Preprocessing.
+
+Data preprocessing is the process of preparing raw data for analysis.
+
+The steps include:
+- Data Cleaning
+- Data Transformation
+- Data Integration
+
+
+Q25. Explain Data Cleaning Techniques.
+
+Data cleaning techniques include:
+
+- Handling missing values
+- Correcting errors
+- Removing unwanted data
+- Detecting outliers
+
+
+Q26. Explain Data Transformation Techniques.
+
+1. Normalization
+2. Standardization
+3. [The third item in the source appears as "inning" due to OCR corruption.]
+
+
+Q27. Explain the importance of Data Analytics in business.
+
+- Better decision-making
+- Customer analysis
+- Cost reduction
+- Improves efficiency
+- Sales forecasting
+- Competitive advantage
+
+
+Q28. Explain SAS.
+
+SAS (Statistical Analysis System) is a software suite used for statistical analysis, business intelligence, and predictive analytics.
+
+
+Q29. Explain R Programming.
+
+R is an open-source programming language used for statistical computing and graphical analysis.
+
+
+Q30. Explain Python in Data Analytics.
+
+Python is a high-level programming language widely used for data analytics because of its simplicity and powerful libraries such as:
+
+- Pandas
+- NumPy
+- Matplotlib
+
+
+Q31. Explain Hadoop.
+
+Hadoop is a distributed framework that stores and processes huge amounts of data across clusters of computers.
+
+Advantages:
+- Scalability
+- Fault tolerance
+- Cost effectiveness
+
+
+Q32. Explain Spark.
+
+Spark is a distributed computing framework used for high-speed Big Data processing and analytics.
+
+Features:
+- Real-time processing
+- Machine learning support
+- Fast processing
+
+
+==================================================
+SECTION D — APPLICATION-BASED QUESTIONS
+==================================================
+
+Q33. How does Netflix use Data Analytics?
+
+[The answer is not clearly visible in the provided OCR text.]
+
+
+Q34. How is Data Analytics used in Banking?
+
+Banks use analytics for:
+- Fraud detection
+- Risk analysis
+- Customer segmentation
+
+
+Q35. How is Data Analytics used in Healthcare?
+
+Healthcare organizations use analytics to:
+- Predict diseases
+- Manage patients
+- Improve treatment quality
+
+
+Q36. How is Data Analytics useful in Retail?
+
+Retail companies use analytics to:
+- Understand customer behaviour
+- Improve sales
+
+
+Q37. Why is Data Cleaning important?
+
+Clean data improves the accuracy and quality of analysis and decision-making.
+
+
+Q38. Why is Data Integration necessary?
+
+It provides a complete and unified view of data from different sources.
+
+
+Q39. Explain the importance of Big Data technologies.
+
+Big Data technologies process and analyze huge volumes of data efficiently and quickly.
+
+
+Q40. Explain the role of Python in modern analytics.
+
+Python provides powerful libraries for:
+- Data analysis
+- Visualization
+- Machine learning
+- Artificial intelligence
+
+This makes Python one of the most popular analytics tools.
